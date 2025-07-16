@@ -31,6 +31,25 @@
 $ npm install
 ```
 
+## Database setup
+
+```bash
+# copy .env.example to .env
+$ cp .env.example .env
+
+# to create migration
+$ npx prisma migrate dev
+
+# to create migration
+$ npx prisma migrate dev
+
+# to generate prisma
+$ npx prisma generate
+
+# to reset database
+$ npx prisma migrate reset
+```
+
 ## Compile and run the project
 
 ```bash
