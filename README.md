@@ -65,16 +65,10 @@ $ npm run start:prod
 
 ## Run tests
 
-```bash
+````bash
 # unit tests
 $ npm run test
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
 
 ## Deployment
 
@@ -85,7 +79,7 @@ If you are looking for a cloud-based platform to deploy your NestJS application,
 ```bash
 $ npm install -g @nestjs/mau
 $ mau deploy
-```
+````
 
 With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
 
